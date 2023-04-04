@@ -22,6 +22,15 @@
   margin: 1%;
 }
 
+.carousel-item .space-img{
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+}
+.author-img{
+
+  width: 70%;
+}
 main{
   background: rgba(136, 163, 221, 0.555);
  border-radius: 30px;
@@ -36,13 +45,38 @@ padding: 5%;
 border-radius: 9%;
 }
 
+
+.page-2>main{
+  background: rgba(136, 221, 140, 0.555);
+
+  padding: 1%;
+}
+.page-2{
+  background: rgba(184, 77, 211, 0.616);
+
+  padding: 1%;
+}
+
+.page-3{
+  background: rgba(211, 77, 77, 0.616);
+
+
+}
+
+.page-3>main{
+  background: rgba(177, 86, 86, 0.555);
+}
+
 body{
-  background: url(../img/bg_pages_all.jpg) ;
+  background: url(../img/bg_page_2.jpg) ;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+.page-5 {
+color: rgb(255, 240, 219);
 }
 
 .breadcrumb-item,.text,.text-center{
@@ -51,9 +85,13 @@ text-shadow: 1px 1px 6px rgb(0, 0, 0);
 }
 
 footer{
-  border-radius: 12%;
-  margin: 3%;
-  background: #fca37d;
+  border-radius: 45px;
+background: linear-gradient(225deg, #8e5737, #a97341);
+box-shadow:  -16px 16px 32px #4f321f,
+             16px -16px 32px #edb35c;
+  margin: 0 auto;
+  width: 60%;
+  align-self: center;
 }
 .breadcrumb-item{
   color: rgb(255, 240, 219);
